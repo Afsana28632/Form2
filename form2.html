@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+#table1{
+    margin-top: 100px;
+    margin-left: 200px;
+    width:700px ;
+    height:500px ;
+    background-color: lightcoral;
+    border: 4px solid rgb(11, 11, 11);
+    font-size: 25px
+}
+#thimg{
+    background-image: url(Photo/IMG_20240621_110436_825.jpg);
+width: 100px;
+height: 80px;
+color: bisque
+}
+input{
+    width: 95%;
+    height: 30px;
+    border-radius: 40px;
+    border: 3px solid brown;
+}
+#checkbox{
+    width: 50px;
+    height: 10px;
+}
+
+
+</style>
+<body>
+<form action="get">
+<table id="table1">
+<tr>
+    <th id="thimg" colspan="3"> Form</th>
+</tr>
+<tr>
+    <td colspan="2">
+<label for="Name">Name</label>
+<br><input type="text" name="Name" placeholder="Youir name">
+    </td>
+<td colspan="2">
+<label for="">Last name</label> 
+<br>
+<input type="text" name="Name" placeholder="Your last name">
+</td>
+</tr>
+<tr>
+    <td>
+        <label for="Phone">Phone</label><br>
+        <input type="tel" name="Phone" id="" placeholder="Your Phone">
+    </td>
+    <td>
+        <label for="">How many</label> <br>
+        <input type="number" name="How many" max="150" min="30">
+    </td>
+    <td>
+        <label for="Password">Password</label> <br>
+        <input type="Password" name="Password" id="" placeholder="Your Password">
+    </td>
+</tr>
+<tr>
+<td colspan="3">
+<label for="Email">Email</label> <br>
+<input type="Email" name="Email" id="" placeholder="your Email">
+
+</td>
+</tr>
+<tr> <td>
+<label for="Gender">Gender</label> <br> 
+<input type="checkbox" id="Male" name="Gender" value="Male" > 
+<label for="Male">Male</label> <br>
+<input type="checkbox" id="Female" name="Gender" value="Female">
+<label for="Female">Female</label> <br>
+    </td>
+</tr>
+<tr>
+    <td colspan="2"><input type="email" placeholder="your email"></td>
+</tr>
+<tr>
+<td >
+    <input type="reset" name="reset" id="" value="reset all">
+</td>
+<td>
+    <input type="submit" name="submit" id="" value="submit">
+</td>
+</tr>
+</table>
+
+</form>
+   
+</body>
+</html>
